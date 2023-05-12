@@ -20,3 +20,17 @@ Text Recognition in images using Yandex Cloud Speechkit
 
 **extracted_text_values.php** - отобранные из json текстовые данные с распознанным текстом.
 
+
+# Пример
+
+![image](https://github.com/HoboHub/text_recognition/assets/25107684/19142b03-fcef-4de5-8699-4d74e5e16802)
+
+![image](https://github.com/HoboHub/text_recognition/assets/25107684/0067c83c-5f4f-44ce-ba54-2cb7815fa49a)
+
+![image](https://github.com/HoboHub/text_recognition/assets/25107684/b0975cce-186f-49f2-bded-592852cf82e5)
+
+# Изображение
+
+![otche-nash-izhe-esi-mem-shablon](https://github.com/HoboHub/text_recognition/assets/25107684/a8e3941f-63b3-4c4c-9d60-8d9b6a4deed9)
+
+
