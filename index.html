@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    
+  <title>Text Recognition From Images</title>  
+  <link rel="stylesheet" href="style.css">
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+</head>
+
+<body>
+  <script>
+  </script>
+    
+
+
+    <form name="form" action="upload.php" method="post" enctype="multipart/form-data" class="form">
+        <div class="drop-area" id="dropArea">
+            <label for="fileInput">Перетащите файлы сюда или нажмите для выбора файла</label>
+            <input type="file" id="fileInput" name="my_file">
+            <div class="success-message"></div>
+        </div>
+        <input class="upload-btn" type="submit" name="submit" value="Upload"/>
+    </form>
+
+
+
+    <script>
+        let dropArea = document.getElementById('dropArea');
+
+        // Предотвращение действия по умолчанию при перетаскивании файлов
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropArea.addEventListener(eventName, preventDefaults, false);
+        });
+
+        // Подсветка области при перетаскивании файла
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropArea.addEventListener(eventName, highlight, false);
+        });
+
+        // Снятие подсветки области при завершении перетаскивания файла
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropArea.addEventListener(eventName, unhighlight, false);
+        });
+
+        // Загрузка файла при перетаскивании на область или выборе файла через кнопку
+        dropArea.addEventListener('drop', handleDrop, false);
+        document.getElementById('fileInput').addEventListener('change', handleDrop, false);
+
+        // Предотвращение действия по умолчанию
+        function preventDefaults(event) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+
+        // Подсветка области
+        function highlight() {
+            dropArea.classList.add('highlight');
+        }
+
+        // Снятие подсветки области
+        function unhighlight() {
+            dropArea.classList.remove('highlight');
+        }
+
+        // Обработка загрузки файла
+        function handleDrop(event) {
+            let files = event.target.files || event.dataTransfer.files;
+            // Передача файлов в форму
+            let fileInput = document.getElementById('fileInput');
+            fileInput.files = files;
+
+            // Отображение сообщения об успешной загрузке
+            let successMessage = dropArea.querySelector('.success-message');
+            successMessage.innerHTML = files.length > 0 ? files[0].name + ' загружен' : '';
+
+            // Добавление класса для стилизации при успешной загрузке
+            dropArea.classList.add('success');
+        }
+
+    </script>
+  
+</body>
+</html>

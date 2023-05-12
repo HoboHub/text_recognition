@@ -1,0 +1,56 @@
+body {
+    font: 12px Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+/*-----------------------*/
+
+.form {
+  padding: 15% 10%;
+}
+
+.drop-area {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.drop-area.highlight {
+    border-color: #999;
+}
+
+.drop-area.success {
+    border-color: #4CAF50;
+    background-color: #e9f5e9;
+}
+
+.drop-area.success label {
+    display: none;
+}
+
+.drop-area.success .success-message {
+    display: block;
+    color: #4CAF50;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.drop-area label {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.drop-area input {
+    display: none;
+}
+
+/**/
+.upload-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "Roboto", "Montserrat", sans-serif;
+}
