@@ -1,7 +1,7 @@
 # TEXT RECOGNITION
 Text Recognition in images using Yandex Cloud Speechkit
 
-Для работы необходимо завести аккаунт в Yanex SpeechKit
+Для работы необходим аккаунт в Yanex SpeechKit
 После регистрации, выполняя инструкции на сайте, получите oath-токен и folder_id (id папки, в которой вы работаете)
 В text_detection.py вставьте данные в соотв. поля. 
 +Укажите путь к интерпретатор Python (он должен быть установлен) в upload.php
