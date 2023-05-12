@@ -29,7 +29,7 @@ Text Recognition in images using Yandex Cloud Speechkit
 
 ![image](https://github.com/HoboHub/text_recognition/assets/25107684/b0975cce-186f-49f2-bded-592852cf82e5)
 
-# Изображение
+# Исходное изображение
 
 ![otche-nash-izhe-esi-mem-shablon](https://github.com/HoboHub/text_recognition/assets/25107684/a8e3941f-63b3-4c4c-9d60-8d9b6a4deed9)
 
