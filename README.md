@@ -16,5 +16,6 @@ Text Recognition in images using Yandex Cloud Speechkit
 В каталоге сгенерируется 2 новых файла:
 
 img_rec_output.json - ответ Yandex SpeeckKit
+
 extracted_text_values.php - отобранные из json текстовые данные с распознанным текстом.
 
