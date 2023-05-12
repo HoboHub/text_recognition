@@ -5,7 +5,8 @@ Text Recognition in images using Yandex Cloud Speechkit
 
 После регистрации, выполняя инструкции на сайте, получите oath-токен и folder_id (id папки, в которой вы работаете)
 В text_detection.py вставьте данные в соотв. поля. 
-+Укажите путь к интерпретатор Python (он должен быть установлен) в upload.php
+
++Укажите путь к интерпретатору Python (он должен быть установлен) в upload.php
 
 # Схема работы
 
