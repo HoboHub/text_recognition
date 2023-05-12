@@ -9,7 +9,7 @@ Text Recognition in images using Yandex Cloud Speechkit
 
 # Схема работы
 
-После выгрузки изображени, нажмите upload
+После выгрузки изображения, нажмите upload
 Произойдет редирект на стр. с распознанным текстом (для дальнешей работы с ним).
 В каталоге сгенерируется 2 новых файла:
 img_rec_output.json - ответ Yandex SpeeckKit
