@@ -25,9 +25,9 @@ https://github.com/yandex-cloud/yc-architect-solution-library
 
 # Пример
 
-![image](https://github.com/HoboHub/text_recognition/assets/25107684/19142b03-fcef-4de5-8699-4d74e5e16802)
+![image](https://github.com/HoboHub/text_recognition/assets/25107684/ca9cfac0-f2e2-4d1f-b9b4-073731b0898e)
 
-![image](https://github.com/HoboHub/text_recognition/assets/25107684/0067c83c-5f4f-44ce-ba54-2cb7815fa49a)
+![image](https://github.com/HoboHub/text_recognition/assets/25107684/69ccb3b4-fbd5-425a-bd3f-ea34feca4776)
 
 ![image](https://github.com/HoboHub/text_recognition/assets/25107684/b0975cce-186f-49f2-bded-592852cf82e5)
 
