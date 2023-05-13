@@ -20,6 +20,8 @@ Text Recognition in images using Yandex Cloud Speechkit
 
 **extracted_text_values.php** - отобранные из json текстовые данные с распознанным текстом.
 
+#Больше информации о Yandex Cloud:
+https://github.com/yandex-cloud/yc-architect-solution-library
 
 # Пример
 
