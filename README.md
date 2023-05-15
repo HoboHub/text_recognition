@@ -26,11 +26,11 @@ https://github.com/yandex-cloud/yc-architect-solution-library
 
 # Пример
 
-![image](https://github.com/HoboHub/text_recognition/assets/25107684/ca9cfac0-f2e2-4d1f-b9b4-073731b0898e)
+![image](https://github.com/HoboHub/text_recognition/assets/25107684/8e256b32-24f8-43fe-bbcf-c0222bd68a33)
 
-![image](https://github.com/HoboHub/text_recognition/assets/25107684/69ccb3b4-fbd5-425a-bd3f-ea34feca4776)
+![image](https://github.com/HoboHub/text_recognition/assets/25107684/4c7cf162-fb93-456b-ad49-ae01b1dc0d1d)
 
-![image](https://github.com/HoboHub/text_recognition/assets/25107684/b0975cce-186f-49f2-bded-592852cf82e5)
+![image](https://github.com/HoboHub/text_recognition/assets/25107684/ae6f0daa-bf90-4c23-b097-2836603e3d4b)
 
 # Исходное изображение
 
