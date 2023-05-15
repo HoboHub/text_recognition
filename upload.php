@@ -1,6 +1,5 @@
 <?php
 if (($_FILES['my_file']['name']!="")){
-// Where the file is going to be stored
 	$target_dir = "upload/";
 	$file = $_FILES['my_file']['name'];
 	$path = pathinfo($file);
@@ -9,7 +8,7 @@ if (($_FILES['my_file']['name']!="")){
 	$temp_name = $_FILES['my_file']['tmp_name'];
 	$path_filename_ext = $target_dir.$filename.".".$ext;
  
-// Check if file already exists
+// Проверка на наличие файла
 if (file_exists($path_filename_ext)) {
  // echo "Sorry, file already exists.";
  }else{
@@ -20,8 +19,6 @@ if (file_exists($path_filename_ext)) {
 }
 
 
-
-// -------------
 $python = '<your-path-to-python-intrerp>';
 
 $file_path = $target_dir . '' . $filename . '.' . $ext;
@@ -37,10 +34,8 @@ echo $filteredText;
 include 'extracted_text_values.php';
 // Установка кодировки UTF-8
 header('Content-Type: text/html; charset=utf-8');
-// Вывод значений на экран
-echo implode(' ', $text_values);
 
-
-// возврат обратно на главную стр
-// header('Location: '.'/'); 
+// редирект на result.php с распознанным текстом в качестве пропса
+$text_values_str = implode(' ', $text_values);
+header("Location: "."/result.php?text_values=".urlencode($text_values_str));
 ?>

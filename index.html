@@ -3,21 +3,17 @@
 <head>
   <meta charset="utf-8">
     
-  <title>Text Recognition From Images</title>  
+  <title>HTML5 Drag and Drop загрузка файлов</title>  
   <link rel="stylesheet" href="style.css">
-    
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 </head>
 
 <body>
-  <script>
-  </script>
-    
-    <div class="logo">
-        <img class="logo__img" src="assets/img/logo.png" alt="SeeText" width="25" height="25">
-        <span class="logo__text">Text Recognition</span>
-    </div>    
 
+  <a class="logo" href="index.html">
+    <img class="logo__img" src="assets/img/logo.png" alt="SeeText" width="25" height="25">
+    <span class="logo__text">Text Recognition</span>
+  </a>
 
     <form name="form" action="upload.php" method="post" enctype="multipart/form-data" class="form">
         <div class="drop-area" id="dropArea">
@@ -25,7 +21,7 @@
             <input type="file" id="fileInput" name="my_file">
             <div class="success-message"></div>
         </div>
-        <input class="upload-btn" type="submit" name="submit" value="Upload"/>
+        <input class="upload-btn" type="submit" name="submit" value="Recognize"/>
     </form>
 
 
